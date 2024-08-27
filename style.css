@@ -1,0 +1,57 @@
+body {
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    h1{
+        font-weight: 500;
+    }
+    input {
+        padding: 8px;
+        background-color: #e0e0e0;
+        border-radius: 4px;
+        border-style: none;
+        width: 93%;
+    }
+    
+    input[type=radio] {
+        width: 5%;
+    }
+}
+
+.select {
+    padding: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    border-style: none;
+    width: 100%
+}
+
+.container {
+    background-color: white;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 8px;
+    gap: 12px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: auto auto;
+    padding-bottom: 5%;
+}
+
+
+.btn {
+    color: white;
+    background-color: cornflowerblue;
+    padding: 12px;
+    border-radius: 4px;
+    border-style: none;
+    width: 20%;
+
+}
+
+.btn-container {
+    padding-top: 5%;
+}

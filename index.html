@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="Container">
+    <div class="container">
         <h1>Registration Form</h1>
         <div class="grid-container">
             
             <div>
-                <La>First Name</div>
+                <div>First Name</div>
                 <input/>
             </div>
 
@@ -22,17 +23,17 @@
 
             <div>
                 <div>Birthday</div>
-                <input/>
+                <input type="date"/>
             </div>
 
             <div>
                 <div>Gender</div>
                 <span>
-                    <input type="checkbox"/>
+                    <input type="radio"/>
                     <label>Male</label>
                 </span>
                 <span>
-                    <input type="checkbox"/>
+                    <input type="radio"/>
                     <label>Female</label>
                 </span>
             </div>
@@ -46,18 +47,22 @@
                 <div>Phone Number</div>
                 <input/>
             </div>
+            
+        </div>
 
-            <div>
-                <div>Subject</div>
-                <select>
-                    <option value="" disabled selected>Choose option</option>
-                </select>
-            </div>
+        <div class="">
+            <div>Subject</div>
+            <select class="select">
+                <option value="" disabled selected>Choose option</option>
+            </select>
+        </div>
 
-            <button>
+        <div class="btn-container">
+            <button class="btn">
                 Submit
             </button>
         </div>
+
     </div>
 </body>
 </html>
