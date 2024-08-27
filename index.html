@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -14,57 +14,52 @@
         <div class="grid-container">
 
             <div>
-                <label>First Name</label>
-                <input />
+                <label for="first-name">First Name</label>
+                <input id="first-name" type="text" />
             </div>
 
             <div>
-                <label>Last Name</label>
-                <input />
+                <label for="last-name">Last Name</label>
+                <input id="last-name" type="text" />
             </div>
 
             <div>
-                <label>Birthday</label>
-                <input type="date" />
+                <label for="birthday">Birthday</label>
+                <input id="birthday" type="date" />
             </div>
 
             <div>
                 <label>Gender</label>
                 <div class="form-container">
+                    <input id="male" name="gender" type="radio" />
+                    <label for="male">Male</label>
 
-                    <input type="radio" />
-                    <label>Male</label>
-
-                    <input type="radio" />
-                    <label>Female</label>
-
+                    <input id="female" name="gender" type="radio" />
+                    <label for="female">Female</label>
                 </div>
-
             </div>
 
             <div>
-                <label>Email</label>
-                <input />
+                <label for="email">Email</label>
+                <input id="email" type="email" />
             </div>
 
             <div>
-                <label>Phone Number</label>
-                <input />
+                <label for="phone-number">Phone Number</label>
+                <input id="phone-number" type="tel" />
             </div>
-
+            
         </div>
 
         <div class="form-container">
-            <label>Subject</label>
-            <select class="select">
+            <label for="subject">Subject</label>
+            <select id="subject" class="select">
                 <option value="" disabled selected>Choose option</option>
             </select>
         </div>
 
         <div class="form-container">
-            <button class="btn">
-                Submit
-            </button>
+            <button class="btn" type="submit">Submit</button>
         </div>
 
     </div>
