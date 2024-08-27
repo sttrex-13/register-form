@@ -1,10 +1,13 @@
 body {
-    background-color: red;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: 200;
+    height: 90vh;
+
+    
     h1{
         font-weight: 500;
     }
+
     input {
         padding: 8px;
         background-color: #e0e0e0;
@@ -14,7 +17,8 @@ body {
     }
     
     input[type=radio] {
-        width: 5%;
+        width: 15%;
+        background-color: gray;
     }
 }
 
@@ -44,14 +48,16 @@ body {
 
 .btn {
     color: white;
-    background-color: cornflowerblue;
-    padding: 12px;
+    background-color: #5a73d0;
+    padding: 20px 12px;
     border-radius: 4px;
     border-style: none;
     width: 20%;
+    font-size: 16px;
+    font-weight: 500;
 
 }
 
-.btn-container {
-    padding-top: 5%;
+.form-container {
+    padding: 2% 0;
 }

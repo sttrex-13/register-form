@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Registration Form</h1>
         <div class="grid-container">
-            
+
             <div>
-                <div>First Name</div>
-                <input/>
+                <label>First Name</label>
+                <input />
             </div>
 
             <div>
-                <div>Last Name</div>
-                <input/>
+                <label>Last Name</label>
+                <input />
             </div>
 
             <div>
-                <div>Birthday</div>
-                <input type="date"/>
+                <label>Birthday</label>
+                <input type="date" />
             </div>
 
             <div>
-                <div>Gender</div>
-                <span>
-                    <input type="radio"/>
+                <label>Gender</label>
+                <div class="form-container">
+
+                    <input type="radio" />
                     <label>Male</label>
-                </span>
-                <span>
-                    <input type="radio"/>
+
+                    <input type="radio" />
                     <label>Female</label>
-                </span>
+
+                </div>
+
             </div>
 
             <div>
-                <div>Email</div>
-                <input/>
+                <label>Email</label>
+                <input />
             </div>
 
             <div>
-                <div>Phone Number</div>
-                <input/>
+                <label>Phone Number</label>
+                <input />
             </div>
-            
+
         </div>
 
-        <div class="">
-            <div>Subject</div>
+        <div class="form-container">
+            <label>Subject</label>
             <select class="select">
                 <option value="" disabled selected>Choose option</option>
             </select>
         </div>
 
-        <div class="btn-container">
+        <div class="form-container">
             <button class="btn">
                 Submit
             </button>
@@ -65,4 +69,5 @@
 
     </div>
 </body>
+
 </html>
