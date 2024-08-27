@@ -1,4 +1,6 @@
 body {
+    background: rgb(200,68,119);
+    background: linear-gradient(45deg, rgba(200,68,119,1) 0%, rgba(121,67,118,1) 100%);
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
     height: 90vh;
